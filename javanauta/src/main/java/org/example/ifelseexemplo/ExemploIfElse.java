@@ -19,5 +19,22 @@ public class ExemploIfElse {
             System.out.println("vc tem que declara imposto de renda!!!");
         }
 
+
+        boolean temDinheiro = true;
+
+       // if (temDinheiro == true){
+           // System.out.println("compra comida");
+       // }else {
+           // System.out.println("come o que tem");
+        //}
+
+
+        System.out.println("ternaria");
+        String mensagem = (temDinheiro) ? "compra comida" : "come o que tem";
+
+        System.out.println(mensagem);
+
+
+
     }
 }
