@@ -20,7 +20,7 @@ public class ExemploIfElse {
         }
 
 
-        boolean temDinheiro = true;
+        boolean temDinheiro = false;
 
        // if (temDinheiro == true){
            // System.out.println("compra comida");
@@ -33,6 +33,14 @@ public class ExemploIfElse {
         String mensagem = (temDinheiro) ? "compra comida" : "come o que tem";
 
         System.out.println(mensagem);
+
+        int valor1 = 40;
+
+        System.out.println("==== resultado ====");
+
+        String resultado = (valor1 > 30)? "vc tem dinheiro!!!" : "vc não tem dinheiro....";
+
+        System.out.println(resultado);
 
 
 
